@@ -1,0 +1,10 @@
+Total_Revenue = sum(pizza_sales[total_price])
+
+Average Order Value = sum(pizza_sales[total_price])/DISTINCTCOUNT(pizza_sales[order_id])
+
+Total Orders = DISTINCTCOUNT(pizza_sales[order_id])
+
+Total Pizzas Sold = sum(pizza_sales[quantity])
+
+Average Pizzas Per Order = SUM(pizza_sales[quantity])/DISTINCTCOUNT(pizza_sales[order_id])
+
